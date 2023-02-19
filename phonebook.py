@@ -22,13 +22,6 @@ def tampilKontak():
 
 #modul update
 def updateKontak(name, phonebook):
-    # name = input("Masukkan Nama: ")
-    # if name in phonebook:
-    #     print("Phone number: ", phonebook[name])
-    #     ubah = input("Mengubah Nomer Menjadi: ")
-    #     phonebook[name] = ubah
-    # else:
-    #     print("\nKontak", phonebook[name],"Tidak Ditemukan\n")
     pilih = input("Apakah Ingin Mengedit Nama Atau Nomor?\n1. Nama\n2. Nomor\nPilihan: ")
     if pilih == 1:
         with open("phonebook.txt",'r') as file:
